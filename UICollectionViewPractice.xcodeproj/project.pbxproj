@@ -14,6 +14,13 @@
 		EC98133A1B3F9FDA00406A4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9813391B3F9FDA00406A4D /* Images.xcassets */; };
 		EC98133D1B3F9FDA00406A4D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC98133B1B3F9FDA00406A4D /* LaunchScreen.xib */; };
 		EC9813491B3F9FDA00406A4D /* UICollectionViewPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9813481B3F9FDA00406A4D /* UICollectionViewPracticeTests.m */; };
+		EC9813571B3FA55B00406A4D /* CollectionViewCellNo1.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9813561B3FA55B00406A4D /* CollectionViewCellNo1.m */; };
+		EC9813601B3FA8E200406A4D /* CollectionViewCellNo2_A.m in Sources */ = {isa = PBXBuildFile; fileRef = EC98135E1B3FA8E200406A4D /* CollectionViewCellNo2_A.m */; };
+		EC9813611B3FA8E200406A4D /* CollectionViewCellNo2_A.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC98135F1B3FA8E200406A4D /* CollectionViewCellNo2_A.xib */; };
+		EC98136A1B3FD07B00406A4D /* CVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9813681B3FD07B00406A4D /* CVCell.m */; };
+		EC98136B1B3FD07B00406A4D /* CVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC9813691B3FD07B00406A4D /* CVCell.xib */; };
+		EC98136F1B3FE10800406A4D /* Tier1CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC98136D1B3FE10800406A4D /* Tier1CollectionViewCell.m */; };
+		EC9813701B3FE10800406A4D /* Tier1CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC98136E1B3FE10800406A4D /* Tier1CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,17 @@
 		EC9813421B3F9FDA00406A4D /* UICollectionViewPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9813471B3F9FDA00406A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC9813481B3F9FDA00406A4D /* UICollectionViewPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewPracticeTests.m; sourceTree = "<group>"; };
+		EC9813551B3FA55B00406A4D /* CollectionViewCellNo1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCellNo1.h; sourceTree = "<group>"; };
+		EC9813561B3FA55B00406A4D /* CollectionViewCellNo1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCellNo1.m; sourceTree = "<group>"; };
+		EC98135D1B3FA8E200406A4D /* CollectionViewCellNo2_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCellNo2_A.h; sourceTree = "<group>"; };
+		EC98135E1B3FA8E200406A4D /* CollectionViewCellNo2_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCellNo2_A.m; sourceTree = "<group>"; };
+		EC98135F1B3FA8E200406A4D /* CollectionViewCellNo2_A.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCellNo2_A.xib; sourceTree = "<group>"; };
+		EC9813671B3FD07B00406A4D /* CVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVCell.h; sourceTree = "<group>"; };
+		EC9813681B3FD07B00406A4D /* CVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVCell.m; sourceTree = "<group>"; };
+		EC9813691B3FD07B00406A4D /* CVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CVCell.xib; sourceTree = "<group>"; };
+		EC98136C1B3FE10800406A4D /* Tier1CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tier1CollectionViewCell.h; sourceTree = "<group>"; };
+		EC98136D1B3FE10800406A4D /* Tier1CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tier1CollectionViewCell.m; sourceTree = "<group>"; };
+		EC98136E1B3FE10800406A4D /* Tier1CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Tier1CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +101,12 @@
 			children = (
 				EC9813301B3F9FDA00406A4D /* AppDelegate.h */,
 				EC9813311B3F9FDA00406A4D /* AppDelegate.m */,
+				EC9813361B3F9FDA00406A4D /* Main.storyboard */,
 				EC9813331B3F9FDA00406A4D /* ViewController.h */,
 				EC9813341B3F9FDA00406A4D /* ViewController.m */,
-				EC9813361B3F9FDA00406A4D /* Main.storyboard */,
+				EC9813581B3FA77F00406A4D /* No1 */,
+				EC98135C1B3FA83E00406A4D /* No2 */,
+				EC9813711B3FE10D00406A4D /* No3 */,
 				EC9813391B3F9FDA00406A4D /* Images.xcassets */,
 				EC98133B1B3F9FDA00406A4D /* LaunchScreen.xib */,
 				EC98132C1B3F9FDA00406A4D /* Supporting Files */,
@@ -117,6 +138,38 @@
 				EC9813471B3F9FDA00406A4D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC9813581B3FA77F00406A4D /* No1 */ = {
+			isa = PBXGroup;
+			children = (
+				EC9813551B3FA55B00406A4D /* CollectionViewCellNo1.h */,
+				EC9813561B3FA55B00406A4D /* CollectionViewCellNo1.m */,
+			);
+			name = No1;
+			sourceTree = "<group>";
+		};
+		EC98135C1B3FA83E00406A4D /* No2 */ = {
+			isa = PBXGroup;
+			children = (
+				EC98135D1B3FA8E200406A4D /* CollectionViewCellNo2_A.h */,
+				EC98135E1B3FA8E200406A4D /* CollectionViewCellNo2_A.m */,
+				EC98135F1B3FA8E200406A4D /* CollectionViewCellNo2_A.xib */,
+				EC9813671B3FD07B00406A4D /* CVCell.h */,
+				EC9813681B3FD07B00406A4D /* CVCell.m */,
+				EC9813691B3FD07B00406A4D /* CVCell.xib */,
+			);
+			name = No2;
+			sourceTree = "<group>";
+		};
+		EC9813711B3FE10D00406A4D /* No3 */ = {
+			isa = PBXGroup;
+			children = (
+				EC98136C1B3FE10800406A4D /* Tier1CollectionViewCell.h */,
+				EC98136D1B3FE10800406A4D /* Tier1CollectionViewCell.m */,
+				EC98136E1B3FE10800406A4D /* Tier1CollectionViewCell.xib */,
+			);
+			name = No3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +252,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9813701B3FE10800406A4D /* Tier1CollectionViewCell.xib in Resources */,
+				EC98136B1B3FD07B00406A4D /* CVCell.xib in Resources */,
 				EC9813381B3F9FDA00406A4D /* Main.storyboard in Resources */,
 				EC98133D1B3F9FDA00406A4D /* LaunchScreen.xib in Resources */,
+				EC9813611B3FA8E200406A4D /* CollectionViewCellNo2_A.xib in Resources */,
 				EC98133A1B3F9FDA00406A4D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9813601B3FA8E200406A4D /* CollectionViewCellNo2_A.m in Sources */,
 				EC9813351B3F9FDA00406A4D /* ViewController.m in Sources */,
+				EC98136A1B3FD07B00406A4D /* CVCell.m in Sources */,
+				EC98136F1B3FE10800406A4D /* Tier1CollectionViewCell.m in Sources */,
 				EC9813321B3F9FDA00406A4D /* AppDelegate.m in Sources */,
 				EC98132F1B3F9FDA00406A4D /* main.m in Sources */,
+				EC9813571B3FA55B00406A4D /* CollectionViewCellNo1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +476,7 @@
 				EC98134E1B3F9FDA00406A4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC98134F1B3F9FDA00406A4D /* Build configuration list for PBXNativeTarget "UICollectionViewPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +485,7 @@
 				EC9813511B3F9FDA00406A4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

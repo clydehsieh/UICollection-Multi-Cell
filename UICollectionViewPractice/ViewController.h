@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionViewNo1;
+
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionViewNo2;
+
+@property (weak, nonatomic) IBOutlet UICollectionView *collectionViewNo3;
 
 @end
 
